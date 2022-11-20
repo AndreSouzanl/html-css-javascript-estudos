@@ -1,0 +1,36 @@
+:root{
+   --cor-texto: #f33;
+   --cor-titulo: darkred;
+   --fonte-titulo: 3em;
+   --p10:25px
+}
+
+
+
+
+
+div{
+    width:250px;
+    height: 250px;
+
+    background: blue;
+    margin-top: 15px;
+}
+
+.box-1{
+    background: var(--cor-titulo);
+    padding: var(--p10);
+    text-align: center;
+}
+
+p, h1{
+    color:var(--cor-texto);
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    color:var(--cor-titulo);
+    font-size: var(--fonte-titulo);
+}
+
